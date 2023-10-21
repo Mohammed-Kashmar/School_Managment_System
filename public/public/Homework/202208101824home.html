@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Home Parent</title>
+
+  <!-- Favicons -->
+  <link href="/assets/img/favicon.png" rel="icon">
+  <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Vendor CSS Files -->
+  <link href="/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/all.min.css">
+  
+  <!-- Main CSS File -->
+  <link href="/assets/css/style.css" rel="stylesheet">
+  <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+<style>
+body {
+  position: relative;
+  height: 100%;
+}
+.swiper {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 380px;
+  background-color: #fff;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 310px;
+}
+.swiper-slide .details{
+    text-align: center;
+}
+.swiper-slide .details h2{
+    margin-top: 5px;
+    font-size: 20px;
+}
+.swiper-slide .details h2 span{
+    display: block;
+    font-size: 16px;
+    color: #f44336;
+    margin-top: 5px;
+}
+</style>
+
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">DistinguishedSchool@gmail.com</a>
+        <i class="bi bi-phone-fill phone-icon"></i> +1 5589 55488 55
+      </div>
+      <div class="social-links d-none d-md-block">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+      <div class="logo me-auto d-flex align-items-center">
+        <i class="fa-solid fa-landmark me-3" style="color: #5c8af0; font-size: 40px;"></i>
+        <h1><a href="index.html">Distinguished School</a></h1>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#">Home</a></li>
+          <li><a class="nav-link scrollto" href="#">Profile</a></li>
+          <li><a class="nav-link scrollto" href="#">Weekly Schedule</a></li>
+          <li class="dropdown"><a href="#"><span>Courses</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Exams</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>HomeWorks</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#">Logout</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <!-- .navbar -->
+
+    </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero">
+        <div class="hero-container">
+            <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+                <div class="carousel-inner" role="listbox">
+                <!-- Slide 1 -->
+                <div class="carousel-item active" style="background-image: url('/assets/img/slide/slide-3.jpg');">
+                    <div class="carousel-container">
+                        <div class="carousel-content container">
+                            <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Distinguished School</span></h2>
+                            <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique repudiandae dignissimos inventore fugiat totam officia architecto voluptatem error. Ipsa ex at, in rem cumque consequatur cum deleniti possimus natus distinctio.</p>
+                            <!-- <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        </section>
+<!-- End Hero -->
+
+    <section id="calender">
+        <div class="container mt-4 ">
+            <h2 class="main-title mb-5">Weekly Schedule</h2>
+        
+            <div class="table-responsive">
+                <table class="table  text-center">
+                    <thead>
+                        <tr class="bg-light">
+                            <th class="text-uppercase">Time
+                            </th>
+                            <th class="text-uppercase p-2">Monday</th>
+                            <th class="text-uppercase p-2">Tuesday</th>
+                            <th class="text-uppercase p-2">Wednesday</th>
+                            <th class="text-uppercase p-2">Thursday</th>
+                            <th class="text-uppercase p-2">Friday</th>
+                            <th class="text-uppercase p-2">Saturday</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="align-middle fw-bold">09:00am</td>
+                            <td class="p-2">
+                                <span class="bg-primary py-2 px-3  rounded-3  text-white fs-6 "> Dance</span>
+                                <div class="mt-4 fs-6">9:00-10:00</div>
+                            </td>
+                            <td class="p-2">
+                                <span class="bg-primary py-2 px-3  rounded-3  text-white fs-6 ">Yoga</span>
+                                <div class="mt-4 fs-6">9:00-10:00</div>
+                            </td>
+        
+                            <td class="p-2">
+                                <span class="bg-primary py-2 px-3  rounded-3  text-white fs-6 ">Music</span>
+                                <div class="mt-4 fs-6">9:00-10:00</div>
+                            </td>
+                            <td class="p-2">
+                                <span class="bg-primary py-2 px-3  rounded-3  text-white fs-6 ">Dance</span>
+                                <div class="mt-4 fs-6">9:00-10:00</div>
+                            </td>
+                            <td class="p-2">
+                                <span class="bg-primary py-2 px-3  rounded-3  text-white fs-6 ">Art</span>
+                                <div class="mt-4 fs-6">9:00-10:00</div>
+                            </td>
+                            <td class="p-2">
+                                <span class="bg-primary py-2 px-3  rounded-3  text-white fs-6 ">English</span>
+                                <div class="mt-4 fs-6">9:00-10:00</div>
+                            </td>
+                        </tr>
+        
+                        <tr>
+                            <td class="align-middle fw-bold">10:00am</td>
+                            <td class="p-2">
+                                <span class="bg-primary py-2 px-3  rounded-3  text-white fs-6 ">Music</span>
+                                <div class="mt-4 fs-6">10:00-11:00</div>
+                            </td>
+                            <td class="bg-light">
+        
+                            </td>
+                            <td class="p-2">
+                                <span class="bg-primary py-2 px-3  rounded-3  text-white fs-6 ">Art</span>
+                                <div class="mt-4 fs-6">10:00-11:00</div>
+                            </td>
+                            <td class="p-2">
+                                <span class="bg-primary py-2 px-3  rounded-3  text-white fs-6 ">Yoga</span>
+                                <div class="mt-4 fs-6">10:00-11:00</div>
+                            </td>
+                            <td class="p-2">
+                                <span class="bg-primary py-2 px-3  rounded-3  text-white fs-6 ">English</span>
+                                <div class="mt-4 fs-6">10:00-11:00</div>
+                            </td>
+                            <td class="bg-light">
+        
+                            </td>
+                        </tr>
+        
+                        <tr>
+                            <td class="align-middle fw-bold">11:00am</td>
+                            <td class="p-2">
+                                <span class="bg-primary py-2 px-3  rounded-3  text-white fs-6 ">Break</span>
+                                <div class="mt-4 fs-6">11:00-12:00</div>
+                            </td>
+                            <td class="p-2">
+                                <span class="bg-primary py-2 px-3  rounded-3  text-white fs-6 ">Break</span>
+                                <div class="mt-4 fs-6">11:00-12:00</div>
+                            </td>
+                            <td class="p-2">
+                                <span class="bg-primary py-2 px-3  rounded-3  text-white fs-6 ">Break</span>
+                                <div class="mt-4 fs-6">11:00-12:00</div>
+                            </td>
+                            <td class="p-2">
+                                <span class="bg-primary py-2 px-3  rounded-3  text-white fs-6 ">Break</span>
+                                <div class="mt-4 fs-6">11:00-12:00</div>
+                            </td>
+                            <td class="p-2">
+                                <span class="bg-primary py-2 px-3  rounded-3  text-white fs-6 ">Break</span>
+                                <div class="mt-4 fs-6">11:00-12:00</div>
+                            </td>
+                            <td class="p-2">
+                                <span class="bg-primary py-2 px-3  rounded-3  text-white fs-6 ">Break</span>
+                                <div class="mt-4 fs-6">11:00-12:00</div>
+                            </td>
+                        </tr>
+        
+                        <tr>
+                            <td class="align-middle fw-bold">12:00pm</td>
+                            <td class="bg-light">
+        
+                            </td>
+                            <td class="p-2">
+                                <span class="bg-primary py-2 px-3  rounded-3  text-white fs-6 ">Art</span>
+                                <div class="mt-4 fs-6">12:00-1:00</div>
+                            </td>
+                            <td class="p-2">
+                                <span class="bg-primary py-2 px-3  rounded-3  text-white fs-6 ">Dance</span>
+                                <div class="mt-4 fs-6">12:00-1:00</div>
+                            </td>
+                            <td class="p-2">
+                                <span class="bg-primary py-2 px-3  rounded-3  text-white fs-6 ">Music</span>
+                                <div class="mt-4 fs-6">12:00-1:00</div>
+                            </td>
+                            <td class="bg-light">
+        
+                            </td>
+                            <td class="p-2">
+                                <span class="bg-primary py-2 px-3  rounded-3  text-white fs-6 ">Yoga</span>
+                                <div class="mt-4 fs-6">12:00-1:00</div>
+                            </td>
+                        </tr>
+        
+                        <tr>
+                            <td class="align-middle fw-bold">01:00pm</td>
+                            <td class="p-2">
+                                <span class="bg-primary py-2 px-3  rounded-3  text-white fs-6 ">English</span>
+                                <div class="mt-4 fs-6">1:00-2:00</div>
+                            </td>
+                            <td class="p-2">
+                                <span class="bg-primary py-2 px-3  rounded-3  text-white fs-6 ">Music</span>
+                                <div class="mt-4 fs-6">1:00-2:00</div>
+                            </td>
+                            <td class="bg-light">
+        
+                            </td>
+                            <td>
+                                <span class="bg-primary py-2 px-3  rounded-3  text-white fs-6 ">English</span>
+                                <div class="mt-4 fs-6">1:00-2:00</div>
+                            </td>
+                            <td class="p-2">
+                                <span class="bg-primary py-2 px-3  rounded-3  text-white fs-6 ">Yoga</span>
+                                <div class="mt-4 fs-6">1:00-2:00</div>
+                            </td>
+                            <td class="p-2">
+                                <span class="bg-primary py-2 px-3  rounded-3  text-white fs-6 ">Music</span>
+                                <div class="mt-4 fs-6">1:00-2:00</div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section id="teachers" style="background-color: #eee;" >
+    <h2 class="main-title mt-3">Your son's Supervising professors</h2>
+    <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="imgBox">
+                    <img src="/assets/img/parent/1.jpg" />
+                    </div>
+                    <div class="details">
+                    <h2>Jhon Doe<span>Math</span></h2>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imgBox">
+                    <img src="/assets/img/parent/2.jpg" />
+                    </div>
+                    <div class="details">
+                    <h2>Jhon Doe<span>Physics</span></h2>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imgBox">
+                    <img src="/assets/img/parent/3.jpg" />
+                    </div>
+                    <div class="details">
+                    <h2>Jhon Doe<span>Math</span></h2>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imgBox">
+                    <img src="/assets/img/parent/4.jpg" />
+                    </div>
+                    <div class="details">
+                    <h2>Jhon Doe<span>Sport</span></h2>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imgBox">
+                    <img src="/assets/img/parent/5.jpg" />
+                    </div>
+                    <div class="details">
+                    <h2>Jhon Doe<span>Physics</span></h2>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imgBox">
+                    <img src="/assets/img/parent/6.jpg" />
+                    </div>
+                    <div class="details">
+                    <h2>Jhon Doe<span>Math</span></h2>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imgBox">
+                    <img src="/assets/img/parent/7.jpg" />
+                    </div>
+                    <div class="details">
+                    <h2>Jhon Doe<span>Physics</span></h2>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imgBox">
+                    <img src="/assets/img/parent/8.jpg" />
+                    </div>
+                    <div class="details">
+                    <h2>Jhon Doe<span>Sceince</span></h2>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imgBox">
+                    <img src="/assets/img/parent/9.jpg" />
+                    </div>
+                    <div class="details">
+                    <h2>Jhon Doe<span>Physics</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination "></div>
+        </div>
+    </section>
+    <section id="notes">
+        <div class="container">
+            <div class="row">
+                <div class="col-5 table-note">
+                    <table class="notes">
+                        <thead style="background-color: #f4f6fb;">
+                            <tr>
+                                <th>Notes</th>
+                                <th>Date</th>
+                                <th>Subject</th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>note 1</td>
+                                <td>1/5/2021</td>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                            
+                            </tr>
+                            <tr>
+                                <td>note 2</td>
+                                <td>1/4/2021</td>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                            
+                            </tr>
+                            <tr>
+                                <td>Note 3</td>
+                                <td>1/6/2021</td>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-7 table-note">
+                    <table class="notes">
+                        <thead style="background-color: #f4f6fb;">
+                            <tr>
+                                <th>Reason Of Absencs</th>
+                                <th>Date</th>
+                                <th>Missed Course</th>
+                                <th>Type </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                                <td>1/5/2021</td>
+                                <td>Course 1</td>
+                                <td>Justified</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                                <td>1/5/2021</td>
+                                <td>Course 1</td>
+                                <td>Justified</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                                <td>1/5/2021</td>
+                                <td>Course 1</td>
+                                <td>Justified</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                                <td>1/5/2021</td>
+                                <td>Course 1</td>
+                                <td>Justified</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                                <td>1/5/2021</td>
+                                <td>Course 1</td>
+                                <td>Justified</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" >
+        <div class="footer-top">
+            <div class="container">
+                <div class="row d-flex justify-content-center" >
+
+                    <div class=" footer-info text-center">
+                        <h3>Distinguished School</h3>
+                        <p>
+                        <strong>Phone:</strong> +1 5589 55488 55<br>
+                        <strong>Email: </strong>DistinguishedSchool@gmail.com<br>
+                        </p>
+                        <div class=" footer-links ">
+                            <ul class="d-flex justify-content-center ">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Students</a></li>
+                                <li><a href="#">Teachers</a></li>
+                            </ul>
+                        </div>
+                        <div class="social-links mt-3">
+                            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+                            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container ">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Distinguished School</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits ">
+                Designed by <a href="#">Mohammed Kashmar && Yaser Kamel</a>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/all.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+        },
+        });
+    </script>
+
+</body>
+</html>
